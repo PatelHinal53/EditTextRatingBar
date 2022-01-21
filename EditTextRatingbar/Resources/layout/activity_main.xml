@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/material_grey_800">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColorHint="@android:color/holo_orange_light"
+        android:textColor="@android:color/holo_green_dark"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:gravity="bottom"
+        android:editable="false"
+        android:textAllCaps="true"
+        android:imeOptions="actionNext"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:id="@+id/ebtn1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textColorHint="@android:color/holo_red_light"
+        android:textColor="@android:color/holo_green_dark"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:gravity="bottom"
+        android:editable="false"
+        android:textAllCaps="true"
+        android:imeOptions="actionNext"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic"
+        android:id="@+id/editText2"/>
+    
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="16dp"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        style="@style/Base.Widget.AppCompat.RatingBar.Indicator"
+        android:id="@+id/ratingBar"
+        android:background="@android:color/holo_orange_light"/>
+
+    <Button
+        android:text="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1" 
+        android:backgroundTint="@android:color/holo_purple"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
